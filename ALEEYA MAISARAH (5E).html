@@ -1,0 +1,276 @@
+<html>
+<head>
+    <title>Aleeya Maisarah - Student</title>
+	
+    <style>
+        body {
+            color: #333;
+            background: #D8BFD8;
+        }
+
+        header {
+            background: #DB7093;
+            color: white;
+            text-align: center;
+			height:600;
+			width:400;
+        }
+
+        .profile-img {
+            width: 250px;
+            height: 350px;
+            border-radius: 50%;
+        }
+
+        nav {
+            background: #FFF0F5;
+            padding: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #0f172a;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .hobby {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .hobby-card {
+            background: #FFF0F5;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .skill-tag {
+            background: #DB7093;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+        }
+
+     /* Contact form */
+     .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      }
+
+     .form-group {
+      margin-bottom: 1.5rem;
+      }
+
+     .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+     }  
+
+     .form-group input,
+     .form-group textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-family: inherit;
+      }
+
+     .btn {
+      background: #DB7093;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.2s;
+     }
+
+     .btn:hover {
+      background: #1e293b;
+     }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="image.jpeg" alt="Profile" class="profile-img">
+        <p><font face="Times New Roman"><h1>Aleeya Maisarah</h1></p>
+        <p>A Full Time Student at UiTM Rembau. </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about"><h2>About</h2></a></li>
+            <li><a href="#hobby"><h2>Hobby</h2></a></li>
+            <li><a href="#contact"><h2>Contact</h2></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p><h2>I'm a final year student of Information Management's course at UiTM Rembau. The total of years is 2 and a half years and also this is my last year of diploma. It've been such a roller-coaster where I've my up and down during my journey of diploma. But I'll trust the process and trust Allah's plan.</h2></p>
+			
+	 <figure>
+	     <figcaption><h2>This is me!</h2></figcaption>
+	     <video controls autoplay muted loop>
+	     <source src="video/me.mp4" type="video/mp4" width="500" height="400">
+	     </video>
+	 </figure>
+	 
+	 <figure>
+	      <figcaption><h2>Relaxing Yourself.</h2></figcaption>
+	      <audio controls>
+	      <source src="audio/music.crdownload"
+	      </audio>
+	 </figure>
+            <div class="skills">
+                <span class="skill-tag"><h2>Coding (HTML, Python, etc)</h2></span>
+                <span class="skill-tag"><h2>Archive Management</h2></span>
+                <span class="skill-tag"><h2>Library Management</h2></span>
+                <span class="skill-tag"><h2>Multimedia</h2></span>
+                <span class="skill-tag"><h2>Record Management</h2></span>
+            </div>
+        </section>
+		
+
+        <section id="hobby">
+            <h2>My Hobby</h2>
+            <div class="hobby">
+                <div class="hobby-card">
+                    <h3>Cooking</h3>
+                    <p><h3>As a person that always love to eat delicious food, i tend to follow recipe of foods that i love online. Eating delicious foods is one of ways to release my stress and you should try it too! But make sure to eat in an appropriate amount to avoid any harmful.</h3></p>
+					  <img src="food.jpeg" alt="Food" class="food-img" width="200" height=""200>
+					  <img src="food2.jpeg" alt="Food" class="food2-img" width="200" height=""200>
+                </div>
+                <div class="hobby-card">
+                    <h3>Listening to music</h3>
+                    <p><h3>I really love listening to music and I listened to every genre such as ballad, rock, Indonesia songs, English songs, Thailand songs and so on. Music always act like a warm hug whenever I want to be comforted so it have been my hobby for a long period of time.</h3></p>
+                </div>
+                <div class="hobby-card">
+                    <h3>Sightseeing</h3>
+                    <p><h3>From time to time, I can be a person that love to go out just to breathe some fresh air or maybe go to the beach and listening to the sound of waves, stargazing the beautiful stars and more. Furthermore, it also helps me to admire what Allah created for us.</h3></p>
+					  <img src="scenery.jpeg" alt="Scenery" class="scenery-img" width="200" height=""200>
+					  <img src="scenery2.jpeg" alt="Scenery" class="scenery2-img" width="200" height=""200>
+                </div>
+            </div>
+        </section>
+
+         <section id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aleeya Maisarah. All rights reserved.</p>
+		<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Links</title>
+  <link rel="stylesheet" href="styles.css"> <!-- If you want to link external CSS -->
+</head>
+
+<style>
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 40px; /* Adjust size of the icons */
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Icon enlargement effect on hover */
+}
+        /* Footer */
+        footer {
+        background: #DB7093;
+        color: #000000;
+        text-align: center;
+        padding: 2rem;
+        margin-top: 2rem;
+        }
+
+       .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1rem;
+        }
+
+      .social-links a {
+       color: #000000;
+       text-decoration: none;
+       transition: opacity 0.2s;
+       }   
+
+      .social-links a:hover {
+       opacity: 0.8;
+       }
+</style>
+
+<body>
+  <div class="social-media">
+   <p><font face="Times New Roman">Follow me on social media : </p>
+    <a href="https://www.instagram.com/_laliyaa/profilecard/?igsh=MTNndHU1NTJja3cxdg==" target="social-media">
+      <img src="instagram.png" alt="Instagram" class="social-icon">
+    </a>
+    <a href="https://www.tiktok.com/@_laaliyaaaa?_t=ZS-8sojqRygGgM&_r=1" target="social-media">
+      <img src="tiktok.png" alt="Tiktok" class="social-icon">
+    </a>
+  </div>
+    </footer>
+	 <marquee align="center "width="3200" height="60" scrollamount="15" bgcolor="pink"><h1>☺ Welcome To My Website ☺</h1></marquee>
+</body>
+</html>
